@@ -9,6 +9,10 @@
   "keywords": [
     "markdown"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatsuyaoiw/md-link.git"
+  },
   "author": {
     "name": "Tatsuya Oiwa",
     "email": "tatsuyaoiw@gmail.com"
