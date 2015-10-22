@@ -9,9 +9,9 @@ if (argv.length !== 1) {
   console.log('Usage: md-link URL');
   process.exit(1);
 }
-var urlStr = argv.shift();
+var url = argv.shift();
 
-fn(urlStr, function(err, link) {
+fn(url, function(err, link) {
   if (err) {
     console.log(err.message);
     process.exit(1);
