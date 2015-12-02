@@ -64,7 +64,7 @@ function getBody(urlStr, callback) {
  */
 function findTitle(html) {
   // The flag 'i' represents case-insensitive search.
-  var re = new RegExp('<title>(.*?)</title>', 'i');
+  var re = new RegExp('<title>([^]*?)</title>', 'i');
   var matches = html.match(re);
   if (!matches) {
     return null;
