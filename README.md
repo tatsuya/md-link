@@ -2,6 +2,8 @@
 
 A command like tool to generate a [Markdown link](https://daringfireball.net/projects/markdown/syntax#link) for the given URL.
 
+![md-link](screenshot.png)
+
 ## Install
 
 ```
