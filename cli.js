@@ -19,7 +19,7 @@ fn(url, function(err, link) {
   }
   clipboard.copy(link, function(err) {
     if (err) {
-      console.log(err.messsage);
+      console.log(err.message);
       process.exit(1);
     }
     console.log('The following text is copied to clipboard!')
