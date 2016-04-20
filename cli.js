@@ -2,7 +2,6 @@
 
 'use strict';
 
-var clipboard = require('copy-paste');
 var fn = require('./');
 
 var argv = process.argv.slice(2);
@@ -17,13 +16,6 @@ fn(url, function(err, link) {
     console.log(err.message);
     process.exit(1);
   }
-  clipboard.copy(link, function(err) {
-    if (err) {
-      console.log(err.message);
-      process.exit(1);
-    }
-    console.log('The following text is copied to clipboard!')
-    console.log(link);
-    process.exit(0);
-  });
+  console.log(link);
+  process.exit(0);
 });

@@ -17,8 +17,5 @@
     "name": "Tatsuya Oiwa",
     "email": "tatsuyaoiw@gmail.com"
   },
-  "license": "MIT",
-  "dependencies": {
-    "copy-paste": "^1.1.4"
-  }
+  "license": "MIT"
 }

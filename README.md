@@ -12,11 +12,10 @@ $ npm install md-link -g
 
 ## Example
 
-The `md-link` command takes a URL as first argument, and generates the Markdown link text. It also copies the same text to your clipboard, so you can paste it by `Ctrl + V`.
+The `md-link` command takes a URL as first argument, and generates the Markdown link text.
 
 ```
 $ md-link https://github.com/
-The following text is copied to clipboard!
 [GitHub · Where software is built](https://github.com/)
 ```
 
