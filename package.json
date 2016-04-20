@@ -1,6 +1,6 @@
 {
   "name": "md-link",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A command like tool to generate a Markdown link from URL.",
   "bin": {
     "md-link": "cli.js"
